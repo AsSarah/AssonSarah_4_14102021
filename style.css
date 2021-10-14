@@ -640,7 +640,7 @@ a[data-lightbox]:hover img {
 }
 
 h1,
-h2,
+
 h3,
 h4,
 h5,
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+   
 }
 
 .container {
@@ -705,8 +705,11 @@ p {
 }
 
 h2 {
-    font-size: 22px;
-    line-height: 1.4em;
+    /* font-size: 22px;
+    line-height: 1.4em; */
+
+    font-size: 25px;
+    line-height: 1.5em;              /*augmentation taille du texte*/
 }
 
 h3 {
@@ -723,7 +726,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: white;
 }
 
 h4 {
@@ -753,7 +756,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(131, 122, 118, 1);   /* Changement de couleur en gris foncé du bloc 2*/
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,16 +774,18 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    /*background-color: #F3976C; */          
+    background-color: #f3975b; /* couleur plus contrasté ajouté au bloc 2 */
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white;         /* la couleur orange a été remplacé par du noir*/
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    /* background: #F3976C; */
     color: #FFFFFF!important;
+    background-color: #f3975b;   /* couleur plus contrasté ajouté au bouton contact*/
 }
 
 .btn-atomic-tangerine:hover {
@@ -822,7 +827,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp"); /* Le format d'image à été remplacé*/
 }
 
 @media (max-width: 1024px) {
