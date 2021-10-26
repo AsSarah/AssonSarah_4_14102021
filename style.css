@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    /* background: url("img/texture-paper.png"); */  /*suppression de l'image de fond de la seconde page*/
+   
     background-size: 280px 280px;
 }
 
