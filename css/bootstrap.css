@@ -2011,8 +2011,8 @@ pre code {
 }
 
 .row {
-    margin-right: -15px;
-    margin-left: -15px
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .col-lg-1,
@@ -3064,6 +3064,9 @@ table th[class*=col-] {
     .table-responsive>.table-bordered>tfoot>tr:last-child>td,
     .table-responsive>.table-bordered>tfoot>tr:last-child>th {
         border-bottom: 0
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        margin-left: 40px;
     }
 }
 
